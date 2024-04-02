@@ -1,0 +1,42 @@
+{
+  "name": "@tomchochola/javascript-template",
+  "description": "javascript template",
+  "keywords": [
+    "tomchochola",
+    "javascript-template"
+  ],
+  "homepage": "https://github.com/tomchochola/javascript-template",
+  "bugs": {
+    "email": "chocholatom1997@gmail.com",
+    "url": "https://github.com/tomchochola/javascript-template/issues"
+  },
+  "license": "SEE LICENSE IN ./LICENSE.md",
+  "author": {
+    "email": "chocholatom1997@gmail.com",
+    "name": "Tomáš Chochola",
+    "url": "https://github.com/tomchochola"
+  },
+  "contributors": [
+    {
+      "email": "chocholatom1997@gmail.com",
+      "name": "Tomáš Chochola",
+      "url": "https://github.com/tomchochola"
+    }
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/tomchochola"
+  },
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomchochola/javascript-template.git"
+  },
+  "devDependencies": {
+    "@tomchochola/prettier-config": "github:tomchochola/prettier-config",
+    "@tomchochola/eslint-config": "github:tomchochola/eslint-config",
+    "@tomchochola/typescript-config": "github:tomchochola/typescript-config"
+  },
+  "private": true,
+  "type": "module"
+}
