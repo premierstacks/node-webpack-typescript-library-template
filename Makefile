@@ -53,9 +53,7 @@ testing: local
 development: testing
 
 .PHONY: staging
-staging:
-	npm install --install-links --include prod --omit dev --include peer --include optional
-	./node_modules/.bin/tsc
+staging: development
 
 .PHONY: production
 production: staging
