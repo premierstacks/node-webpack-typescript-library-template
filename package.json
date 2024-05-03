@@ -1,14 +1,14 @@
 {
-  "name": "@tomchochola/javascript-template",
+  "name": "@premierstacks/javascript-template",
   "description": "javascript template",
   "keywords": [
-    "tomchochola",
+    "premierstacks",
     "javascript-template"
   ],
-  "homepage": "https://github.com/tomchochola/javascript-template",
+  "homepage": "https://github.com/premierstacks/javascript-template",
   "bugs": {
     "email": "chocholatom1997@gmail.com",
-    "url": "https://github.com/tomchochola/javascript-template/issues"
+    "url": "https://github.com/premierstacks/javascript-template/issues"
   },
   "license": "SEE LICENSE IN ./LICENSE.md",
   "author": {
@@ -30,12 +30,12 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomchochola/javascript-template.git"
+    "url": "https://github.com/premierstacks/javascript-template.git"
   },
   "devDependencies": {
-    "@tomchochola/prettier-config": "github:tomchochola/prettier-config",
-    "@tomchochola/eslint-config": "github:tomchochola/eslint-config",
-    "@tomchochola/typescript-config": "github:tomchochola/typescript-config"
+    "@premierstacks/prettier-config": "github:premierstacks/prettier-config",
+    "@premierstacks/eslint-config": "github:premierstacks/eslint-config",
+    "@premierstacks/typescript-config": "github:premierstacks/typescript-config"
   },
   "private": true,
   "type": "module"
