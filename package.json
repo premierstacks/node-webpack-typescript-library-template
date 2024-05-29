@@ -34,9 +34,9 @@
     "url": "https://github.com/premierstacks/javascript-template.git"
   },
   "devDependencies": {
-    "@premierstacks/prettier-config": "github:premierstacks/prettier-config",
-    "@premierstacks/eslint-config": "github:premierstacks/eslint-config",
-    "@premierstacks/typescript-config": "github:premierstacks/typescript-config"
+    "@premierstacks/prettier-stack": "github:premierstacks/prettier-stack",
+    "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack",
+    "@premierstacks/typescript-stack": "github:premierstacks/typescript-stack"
   },
   "private": true,
   "type": "module"

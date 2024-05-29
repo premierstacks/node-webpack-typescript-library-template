@@ -72,9 +72,9 @@ Review and ensure your license covers the usage of these dependencies, or remove
 
 The TypeScript Template is designed to provide a comprehensive development environment tailored for TypeScript projects, integrating advanced configurations and tools to ensure high-quality code and efficient development processes.
 
-- **TypeScript Configuration**: Employs `@premierstacks/typescript-config` for an optimized TypeScript setup, enhancing the project with advanced type-checking and compilation features tailored to TypeScript's best practices.
-- **ESLint**: Integrates `@premierstacks/eslint-config` to ensure code quality and consistency through comprehensive linting rules, tailored for both JavaScript and TypeScript projects.
-- **Prettier**: Includes `@premierstacks/prettier-config` to enforce consistent code formatting across the project, enhancing readability and maintainability.
+- **TypeScript Configuration**: Employs `@premierstacks/typescript-stack` for an optimized TypeScript setup, enhancing the project with advanced type-checking and compilation features tailored to TypeScript's best practices.
+- **ESLint**: Integrates `@premierstacks/eslint-stack` to ensure code quality and consistency through comprehensive linting rules, tailored for both JavaScript and TypeScript projects.
+- **Prettier**: Includes `@premierstacks/prettier-stack` to enforce consistent code formatting across the project, enhancing readability and maintainability.
 - **Makefile Goals**: Provides a range of predefined Makefile commands for common tasks such as linting (`make lint`), code formatting (`make fix`), and transpiling TypeScript code (`make transpile`), along with environment-specific setup commands (`make local`, `make testing`, `make development`, `make staging`, `make production`), streamlining the development workflow and optimizing the CI/CD pipeline.
 - **Scalable Structure**: Offers a well-organized project structure that is adaptable to projects of varying scales and complexities, ensuring a solid foundation for both small and large TypeScript applications.
 - **Dotfiles**: Comes equipped with essential configuration files (.gitignore, .editorconfig, .gitattributes, .prettierignore) to ensure a clean and consistent development environment across different platforms and editors, facilitating seamless collaboration and integration within development teams.
