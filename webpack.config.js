@@ -15,6 +15,10 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export function main(): void {
-  console.log('Hello from Node.js with TypeScript and Webpack!');
+import { nodeTypescriptLibrary } from '@premierstacks/webpack-stack';
+
+export default function (env, argv) {
+  const config = nodeTypescriptLibrary(env, argv, { index: ['./src/index.ts'] });
+
+  return config;
 }

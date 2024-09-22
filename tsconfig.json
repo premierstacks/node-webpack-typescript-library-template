@@ -1,5 +1,5 @@
 {
-  "extends": "@premierstacks/typescript-stack/src/configs/recommended.json",
+  "extends": "@premierstacks/typescript-stack/src/configs/node_webpack_library.json",
   "include": ["./src/**/*"],
   "compilerOptions": {
     "outDir": "./dist"

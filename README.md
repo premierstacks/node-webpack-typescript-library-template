@@ -1,40 +1,42 @@
-# [TypeScript Template](https://github.com/premierstacks/typescript-template) by [Tomáš Chochola](https://github.com/tomchochola)
+# [Node Webpack TypeScript App Template](https://github.com/premierstacks/node-webpack-typescript-app-template) by [Tomáš Chochola](https://github.com/tomchochola)
 
-Initiate TypeScript projects swiftly with our template: it's equipped with advanced tooling and best practices for a robust start. Designed for effortless integration and scalable development.
+A premium, preconfigured Node.js library template using Webpack and TypeScript. Designed to accelerate library development and ensure consistent, high-quality code for reusable packages.
 
-Our TypeScript Template is tailored to kickstart your projects by integrating advanced tooling configurations and best practices from the onset. This comprehensive starter kit is designed to streamline your TypeScript setup, allowing you to dive straight into development with a solid and structured foundation. The template encapsulates extensive research into TypeScript development, ensuring your projects are built on a future-proof base. It's pre-configured for peak performance, enabling maximum productivity with minimal setup effort, and is continuously updated to stay in line with the latest advancements in the TypeScript ecosystem. Ideal for developers seeking a reliable and scalable foundation for their TypeScript applications.
+## 💡 Idea Behind Premierstacks
 
-## 👌 Top Reasons to Opt for Our Premium TypeScript Template
+Premierstacks is a comprehensive solution designed to cover both the development environment and the runtime provisioning/release process to production servers.
 
-By integrating our Premium TypeScript Template into your workflow, you're not just initiating a project; you're embracing a strategic advantage that enhances code quality, streamlines development processes, and elevates the overall quality of your TypeScript applications.
+It includes everything from basic project structures to configurations for unit tests, static analysis, linters, automatic code fixers, and compilation or transpilation. Premierstacks ensures that your entire workflow, from development to production deployment, operates smoothly.
 
-### ⏱️ Setup in Just 5 Minutes
+With a single license, you gain access to multiple libraries and guides that allow you to focus on business logic while Premierstacks handles both development and runtime environments.
 
-Begin your TypeScript projects with our premium template, crafted for a quick start. This sophisticated starter kit integrates the latest TypeScript features and best practices right from the get-go, ensuring you can focus on development without the setup hassle.
+This software is proprietary and designed for serious developers who value precision and professionalism. Ensure compliance by securing your license today.
 
-### 🕒 Hundreds of Hours of Research, So You Don't Have To
+## ⚡ Why Choose This Solution?
 
-Our TypeScript Template embodies the culmination of extensive research into TypeScript development best practices. By choosing our template, you access a refined development environment designed to enhance code quality and developer experience, saving you countless hours.
+- **Premier Quality**
 
-### 🎚️ Minimal Setup, Maximum Development Velocity
+  Crafted for discerning developers and teams aiming for the highest standards.
 
-Dive into your projects with a template that’s pre-configured for peak performance. From ESLint and Prettier to advanced TypeScript settings, we've streamlined the setup to ensure maximum productivity, letting you concentrate on building dynamic and robust applications.
+- **Expertly Crafted**
 
-### 📘 Zero Expertise Required
+  Built by professionals after hundreds of hours of research and testing.
 
-Our TypeScript Template is designed with all developers in mind, ensuring ease of use regardless of your TypeScript proficiency. This accessibility guarantees that you can leverage advanced tooling configurations and structured project foundations from day one.
+- **Production-Ready**
 
-### 🔄 Continuously Updated
+  Fully tested in real-world production environments.
 
-Stay at the cutting edge with a template that evolves alongside TypeScript. Our TypeScript Template is regularly updated to reflect the latest advancements, ensuring your projects remain relevant and adhere to modern development standards.
+- **Efficient Setup**
 
-### ⚔️ Battle-Tested Reliability
+  Get up and running with minimal effort and immediate results.
 
-Trust in a starter kit that has been rigorously tested across diverse TypeScript projects. Our template provides a reliable and scalable foundation for your TypeScript development, ensuring high-quality results from the onset.
+- **Regular Updates**
 
-### 🏆 Premier Quality Guarantee
+  Stay aligned with the latest Webpack, TypeScript, and best practices.
 
-Opting for our TypeScript Template is a statement of your commitment to excellence. This starter kit is not just a collection of configurations; it's a comprehensive development environment that sets your TypeScript projects up for success, reflecting the highest standards in software development.
+- **Versatile**
+
+  Designed specifically for building TypeScript libraries targeting Node.js environments.
 
 ## 🛡️ License & Usage
 
@@ -42,117 +44,243 @@ Opting for our TypeScript Template is a statement of your commitment to excellen
 
 [![License](https://img.shields.io/badge/License-©_Proprietary-blue.svg)](LICENSE.md)
 
-This software is the exclusive property of Tomáš Chochola, protected by copyright laws.<br />
-Although the source code may be accessible, it is not free for use without a valid license.<br />
-A valid license, obtainable through proper channels, is required for any software use.<br />
-For licensing or inquiries, please contact Tomáš Chochola or refer to the GitHub Sponsors page.
+This software is proprietary property of Tomáš Chochola and protected by copyright laws.<br />
+A valid license is required for any use or manipulation of the software or source code.<br />
+The full license terms are detailed in the LICENSE.md file within the source code repository.
 
-The full license terms are detailed in the LICENSE.md file within the source code repository.<br />
-The terms are subject to changes. Users are encouraged to review them periodically.
+One license grants you access to all Premierstacks products, ensuring a unified solution for your development and production needs.
 
-**Email:** <chocholatom1997@gmail.com><br />
-**Personal GitHub:** [https://github.com/tomchochola](https://github.com/tomchochola)<br />
-**Premierstacks GitHub:** [https://github.com/premierstacks](https://github.com/premierstacks)<br />
-**Sponsor & License:** [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)<br />
-**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)
+**Purchase a license here**: [GitHub Sponsors](https://github.com/sponsors/tomchochola)
 
-### Acquiring a License
+**See full terms in**: [LICENSE.md](LICENSE.md)
 
-To use this template, you must obtain a valid license available through a monthly subscription on the [Sponsor & License](https://github.com/sponsors/tomchochola).<br />
-This platform has been chosen for its reliability and ease of use, providing a secure and straightforward way to manage your subscription.
+## 📦 Preconfigured Features
 
-### Note on Proprietary Dependencies
+Here are the key preconfigured features included in this template:
 
-This template may include or rely on proprietary libraries/packages.<br />
-Review and ensure your license covers the usage of these dependencies, or remove/replace them as needed.
+- **Webpack Configuration**
 
-## 🖍️ Highlights
+  Utilizes `@premierstacks/webpack-stack` for a finely-tuned Webpack setup, facilitating the management and bundling of assets like HTML, SCSS, and TypeScript, optimized for both development and production environments.
 
-- **TypeScript-Centric Design**: Tailored specifically for TypeScript projects, offering configurations and structures that align with TypeScript's best practices and features.
-- **Premium Configuration Suite**: Equipped with Tomáš Chochola's elite configurations for ESLint, Prettier, and TypeScript, ensuring code quality, consistency, and style precision.
-- **Streamlined Workflow**: Predefined Makefile commands enhance your development workflow, covering tasks from linting and static analysis to dependency management.
-- **Structured and Scalable**: The template's architecture, including a clean src/index.ts entry point, is designed for scalability, accommodating projects of various sizes and complexities.
-- **Adherence to Best Practices**: Emphasizes the adoption of industry-leading practices, guaranteeing a project that is not only maintainable and scalable but also future-proof.
+- **TypeScript Support**
 
-## 🎨 Preconfigured Features
+  Configured with `@premierstacks/typescript-stack` to leverage TypeScript's powerful features for type safety and developer productivity, aligning with TypeScript best practices.
 
-The TypeScript Template is designed to provide a comprehensive development environment tailored for TypeScript projects, integrating advanced configurations and tools to ensure high-quality code and efficient development processes.
+- **ESLint Integration**
 
-- **TypeScript Configuration**: Employs `@premierstacks/typescript-stack` for an optimized TypeScript setup, enhancing the project with advanced type-checking and compilation features tailored to TypeScript's best practices.
-- **ESLint**: Integrates `@premierstacks/eslint-stack` to ensure code quality and consistency through comprehensive linting rules, tailored for both JavaScript and TypeScript projects.
-- **Prettier**: Includes `@premierstacks/prettier-stack` to enforce consistent code formatting across the project, enhancing readability and maintainability.
-- **Makefile Goals**: Provides a range of predefined Makefile commands for common tasks such as linting (`make lint`), code formatting (`make fix`), and transpiling TypeScript code (`make transpile`), along with environment-specific setup commands (`make local`, `make testing`, `make development`, `make staging`, `make production`), streamlining the development workflow and optimizing the CI/CD pipeline.
-- **Scalable Structure**: Offers a well-organized project structure that is adaptable to projects of varying scales and complexities, ensuring a solid foundation for both small and large TypeScript applications.
-- **Dotfiles**: Comes equipped with essential configuration files (.gitignore, .editorconfig, .gitattributes, .prettierignore) to ensure a clean and consistent development environment across different platforms and editors, facilitating seamless collaboration and integration within development teams.
+  Integrates `@premierstacks/eslint-stack` to enforce strict linting rules for JavaScript and TypeScript, promoting code quality and consistency throughout the project.
 
-## 🎬 Get Started
+- **Stylelint Configuration**
 
-### 1️⃣ License Acquisition
+  Employs `@premierstacks/stylelint-stack` for CSS and SCSS linting, ensuring that styles across the project maintain high quality and consistency.
 
-Secure your license at [Sponsor & License](https://github.com/sponsors/tomchochola).
+- **Prettier Formatting**
 
-### 2️⃣ Project Creation
+  Incorporates `@premierstacks/prettier-stack` for unified code formatting, ensuring that all project code adheres to a consistent style for better readability and maintainability.
 
-Use the `Use this template` button on the GitHub repository page to create a new repository from this template.<br />
-Select `Create a new repository` in the dropdown and follow the prompts.
+- **PostCSS Integration**
 
-### 3️⃣ Customize Your Project
+  Set up with `@premierstacks/postcss-stack` for advanced CSS processing capabilities, including autoprefixing and future CSS features, enhancing the styling workflow.
 
-Explore the generated repository.<br />
+- **Makefile Goals**
+
+  Features a comprehensive set of predefined Makefile commands to streamline routine development tasks, contributing to an efficient workflow and streamlined CI/CD processes.
+
+## 🔥 Webpack Configuration Highlights
+
+**Default Entry Points**
+
+The template uses `src/index.ts` as the default entry point, ensuring that your TypeScript library has a clean and structured entry for development.
+
+**TypeScript Transpilation**
+
+TypeScript code is transpiled into JavaScript compatible with Node.js environments, ensuring a modern development experience while targeting the Node.js runtime.
+
+**SCSS to CSS Processing**
+
+SCSS files are compiled into CSS and further processed to apply PostCSS transformations like autoprefixing.
+
+**HTML Management**
+
+HTML files are effectively handled, with automatic injection of scripts and styles into the generated HTML files, streamlining the development process.
+
+**Resource Queries Support**
+
+Supports resource queries in import statements, providing fine-grained control over asset processing:
+
+- **`?asset`**: Automatically decides whether to inline the asset or emit it as a separate file based on its size. This is useful for optimizing load times by inlining small assets and emitting larger ones.
+- **`?resource`**: Forces the asset to be emitted as a separate file, regardless of its size. Ideal when you need assets to be cached separately or accessed directly.
+- **`?source`**: Imports the asset as a raw source string. Useful for cases where you need the content of the asset directly in your code, such as loading an HTML template or a text file.
+- **`?inline`**: Inlines the asset into the bundle regardless of size. Ensures the asset is embedded directly into your code, which can be beneficial for small files or critical assets that must be loaded immediately.
+
+**Asset Management**
+
+Efficient handling of assets like images, fonts, and other files, with customizable output paths and naming conventions, ensures that assets are correctly processed and linked in your application.
+
+**Code Splitting and Optimization**
+
+Employs optimized code splitting strategies to improve load times, with chunks configured for better caching and performance.
+
+**Build Optimizations**
+
+Integrates various plugins to minimize and optimize CSS, HTML, JSON, and image assets for production builds, enhancing performance without the need for detailed configuration.
+
+**Environment-Specific Configurations**
+
+Adjusts settings based on the environment (development or production) to ensure optimal performance and features appropriate for each stage.
+
+**Extensibility and Customization**
+
+The Webpack configuration is designed to be modular and extensible, allowing you to modify and extend it according to your project's specific requirements.
+
+## 🚀 Getting Started
+
+1️⃣ **Review the documentation and license**
+
+Ensure this template fits your needs and that you agree with the terms.
+
+2️⃣ **Purchase a license**
+
+Obtain a valid license through [GitHub Sponsors](https://github.com/sponsors/tomchochola).
+
+3️⃣ **Project Creation**
+
+Use the `Use this template` button on the GitHub repository page to create a new repository from this template.
+
+4️⃣ **Customize Your Project**
+
+Explore the generated repository.
+
 Remove unnecessary components and adjust it to fit your project's needs.
 
-### 4️⃣ Attribution
+5️⃣ **Attribution**
 
-To comply with the license agreement regarding giving credits to the authors, please keep the `AUTHORS.md` file intact in your project repository.<br />
-Alternatively please ensure to manually give credits to the authors in your project documentation or wherever appropriate, as per the license agreement.
+To comply with the license agreement regarding giving credits to the authors, please keep the `AUTHORS.md` file intact in your project repository.
 
-### 5️⃣ Usage
+Alternatively, please ensure to manually give credits to the authors in your project documentation or wherever appropriate, as per the license agreement.
 
-The template includes a Makefile with predefined goals to streamline development:
+6️⃣ **Usage**
 
-```shell
-# Set up for environment-specific setups
-make local
-make testing
-make development
-make staging
-make production
+Utilize the Makefile commands to streamline your development workflow:
 
-# Update all dependencies
-make update
+## 📘 CLI Commands
 
-# Automatically fix code style issues
-make fix
+Here are the Makefile goals included in the template, along with their descriptions:
 
-# Run linters and static analysis tools
-make check
+- **make audit**
 
-# Transpile code
-make transpile
-```
+  Run security audits on npm dependencies to check for vulnerabilities.
 
-## The Author: Tomáš Chochola
+- **make check**
 
-_Elite developer crafting exclusive, enterprise-grade software, professional packages, and premium templates to elevate your digital landscape._
+  Run linters, static analysis, and security audits to ensure code quality.
 
-Tomáš Chochola is the creator and project visionary behind this project.<br />
-His expertise and innovative approach have been instrumental in shaping the project's direction and ensuring its success.<br />
-Tomáš Chochola's commitment to excellence and his passion for development are reflected in the quality and reliability of the project.
+- **make clean**
 
-**E-mail**: <chocholatom1997@gmail.com><br />
+  Remove generated files and clean up the project environment.
+
+- **make compress**
+
+  Optimize assets like SVGs for better performance.
+
+- **make development**
+
+  Build the project in development mode.
+
+- **make distclean**
+
+  Perform a deep clean, removing all generated and temporary files.
+
+- **make fix**
+
+  Automatically fix code style issues using ESLint and Prettier.
+
+- **make install**
+
+  Install all npm dependencies, including production and development.
+
+- **make lint**
+
+  Run linters (ESLint, Prettier) to check code style and syntax.
+
+- **make local**
+
+  Build the project in development mode.
+
+- **make production**
+
+  Build the project in production mode with optimizations.
+
+- **make staging**
+
+  Build the project in production mode.
+
+- **make stan**
+
+  Run static analysis using the TypeScript compiler without emitting files.
+
+- **make start**
+
+  Start a local development server with live reloading.
+
+- **make testing**
+
+  Build the project in development mode.
+
+- **make update**
+
+  Update npm dependencies to their latest versions.
+
+These commands facilitate routine development tasks, contributing to an efficient workflow and streamlined CI/CD processes.
+
+## 👤 The Author: Tomáš Chochola
+
+Tomáš Chochola is a leading software developer known for delivering precision-crafted, enterprise-grade solutions. With deep expertise in multiple cutting-edge technologies, Tomáš focuses on ensuring top-tier code quality and efficiency for every project.
+
+**Email**: <chocholatom1997@gmail.com><br />
+**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)<br />
 **Personal GitHub**: [https://github.com/tomchochola](https://github.com/tomchochola)<br />
 **Premierstacks GitHub**: [https://github.com/premierstacks](https://github.com/premierstacks)<br />
-**Sponsor & License**: [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)<br />
-**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)
+**GitHub Sponsors**: [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)
 
-## 🌐 Discover Tomáš Chochola's GitHub Universe
+His areas of specialization include:
 
-Explore the boundless creativity and innovation in [Personal GitHub](https://github.com/tomchochola). As the epicenter of my digital creations, it offers an extensive collection of avant-garde software packages, refined libraries, and polished templates, meticulously crafted to enhance your development journey. Immerse yourself in a world where efficiency and elegance converge, and elevate your projects with tools that redefine excellence.
+- DevOps and AWS
+- PHP and Laravel
+- Secure coding practices
+- Code style and best practices
+- Helper functions and libraries
+- TypeScript, React, and Webpack
+- Reusable templates and configuration stacks
+- Development on Windows 11 and Ubuntu 22/24 (WSL2)
+- ESLint, Prettier, PHP CS Fixer, PostCSS, and Stylelint
 
-## 💰 Empower Innovation: Support and Subscribe
+## 💼 Hire Me
 
-Your support transcends mere contributions; it's the lifeblood of innovation and growth. By subscribing for premium access or becoming a sponsor, you directly contribute to the advancement of high-caliber software. Embrace the opportunity to be part of a visionary journey by visiting my [Sponsor & License](https://github.com/sponsors/tomchochola).
+Whether you need short-term code assistance, in-depth analysis, or help integrating premium packages, I'm available for collaboration. Let's take your project to the next level.
 
-## 🤝 Join Forces with Tomáš Chochola
+You can also support my work by becoming a sponsor through [GitHub Sponsors](https://github.com/sponsors/tomchochola).
 
-Embark on a collaborative venture with a developer whose passion for perfection knows no bounds. Whether it's for groundbreaking startups, global enterprises, or transformative government projects, my arsenal of skills is at your command. Let's merge visions and craftsmanship to forge software that stands a class apart. Connect with me at <chocholatom1997@gmail.com> for collaborations that transcend conventional boundaries.
+If you're interested in hiring me for any of the above or for solving IT issues, feel free to reach out. I'm open to collaboration, whether it's for new packages, ongoing projects, or quick IT fixes.
+
+## 🌳 Project Structure (Tree)
+
+Below is an example of the project structure you will receive upon purchasing the Browser Webpack TypeScript App Template. This allows you to see what’s included and know exactly what you are paying for:
+
+```sh
+.
+├── AUTHORS.md
+├── LICENSE.md
+├── Makefile
+├── README.md
+├── eslint.config.js
+├── package.json
+├── prettier.config.js
+├── src
+│   ├── index.ts
+│   └── modules.d.ts
+├── tsconfig.json
+└── webpack.config.js
+
+1 directory, 11 files
+```

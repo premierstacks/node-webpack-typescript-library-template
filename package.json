@@ -1,15 +1,15 @@
 {
-  "name": "@premierstacks/javascript-template",
-  "description": "javascript template",
+  "name": "@premierstacks/node-webpack-typescript-library-template",
+  "description": "premierstacks node webpack typescript library template",
   "keywords": [
     "premierstacks",
-    "javascript-template",
+    "node-webpack-typescript-library-template",
     "tomchochola"
   ],
-  "homepage": "https://github.com/premierstacks/javascript-template",
+  "homepage": "https://github.com/premierstacks/node-webpack-typescript-library-template",
   "bugs": {
     "email": "chocholatom1997@gmail.com",
-    "url": "https://github.com/premierstacks/javascript-template/issues"
+    "url": "https://github.com/premierstacks/node-webpack-typescript-library-template/issues"
   },
   "license": "SEE LICENSE IN ./LICENSE.md",
   "author": {
@@ -28,15 +28,18 @@
     "type": "github",
     "url": "https://github.com/sponsors/tomchochola"
   },
-  "main": "./src/index.js",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/premierstacks/javascript-template.git"
+    "url": "https://github.com/premierstacks/node-webpack-typescript-library-template.git"
   },
   "devDependencies": {
-    "@premierstacks/prettier-stack": "github:premierstacks/prettier-stack",
     "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack",
-    "@premierstacks/typescript-stack": "github:premierstacks/typescript-stack"
+    "@premierstacks/prettier-stack": "github:premierstacks/prettier-stack",
+    "@premierstacks/typescript-stack": "github:premierstacks/typescript-stack",
+    "@premierstacks/webpack-stack": "github:premierstacks/webpack-stack"
   },
   "private": true,
   "type": "module"
