@@ -1,4 +1,4 @@
-# [Node Webpack TypeScript App Template](https://github.com/premierstacks/node-webpack-typescript-app-template) by [Tomáš Chochola](https://github.com/tomchochola)
+# [Node Webpack TypeScript Library Template](https://github.com/premierstacks/node-webpack-typescript-library-template) by [Tomáš Chochola](https://github.com/tomchochola)
 
 A premium, preconfigured Node.js library template using Webpack and TypeScript. Designed to accelerate library development and ensure consistent, high-quality code for reusable packages.
 
@@ -265,7 +265,7 @@ If you're interested in hiring me for any of the above or for solving IT issues,
 
 ## 🌳 Project Structure (Tree)
 
-Below is an example of the project structure you will receive upon purchasing the Browser Webpack TypeScript App Template. This allows you to see what’s included and know exactly what you are paying for:
+Below is an example of the project structure you will receive upon purchasing the template. This allows you to see what’s included and know exactly what you are paying for:
 
 ```sh
 .
