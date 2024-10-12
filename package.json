@@ -2,9 +2,9 @@
   "name": "@premierstacks/node-webpack-typescript-library-template",
   "description": "premierstacks node webpack typescript library template",
   "keywords": [
+    "tomchochola",
     "premierstacks",
-    "node-webpack-typescript-library-template",
-    "tomchochola"
+    "node-webpack-typescript-library-template"
   ],
   "homepage": "https://github.com/premierstacks/node-webpack-typescript-library-template",
   "bugs": {
