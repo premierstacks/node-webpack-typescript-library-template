@@ -3,6 +3,7 @@
   "description": "premierstacks node webpack typescript library template",
   "keywords": [
     "tomchochola",
+    "tomaschochola",
     "premierstacks",
     "node-webpack-typescript-library-template"
   ],
@@ -11,7 +12,7 @@
     "email": "chocholatom1997@gmail.com",
     "url": "https://github.com/premierstacks/node-webpack-typescript-library-template/issues"
   },
-  "license": "SEE LICENSE IN ./LICENSE.md",
+  "license": "CC-BY-ND-4.0",
   "author": {
     "email": "chocholatom1997@gmail.com",
     "name": "Tomáš Chochola",
@@ -28,13 +29,7 @@
     "type": "github",
     "url": "https://github.com/sponsors/tomchochola"
   },
-  "main": "./dist/index.cjs",
-  "types": "./dist/index.d.ts",
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/premierstacks/node-webpack-typescript-library-template.git"
-  },
+  "repository": "github:premierstacks/node-webpack-typescript-library-template",
   "devDependencies": {
     "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack",
     "@premierstacks/prettier-stack": "github:premierstacks/prettier-stack",
@@ -42,5 +37,8 @@
     "@premierstacks/webpack-stack": "github:premierstacks/webpack-stack"
   },
   "private": true,
-  "type": "module"
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts"
 }
