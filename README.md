@@ -121,23 +121,24 @@ The following is a breakdown of the folder and file structure within this reposi
 
 ```bash
 .
+├── AUTHORS.md
 ├── .browserslistrc
 ├── .editorconfig
+├── eslint.config.js
 ├── .gitattributes
 ├── .gitignore
-├── .prettierignore
-├── AUTHORS.md
-├── LICENSE.md
+├── LICENSE
 ├── Makefile
-├── README.md
-├── eslint.config.js
 ├── package.json
 ├── prettier.config.js
+├── .prettierignore
+├── README.md
 ├── src
 │   ├── index.ts
-│   └── modules.d.ts
+│   └── types
+│       └── modules.d.ts
 ├── tsconfig.json
 └── webpack.config.js
 
-1 directory, 16 files
+3 directories, 16 files
 ```
